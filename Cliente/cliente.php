@@ -11,6 +11,7 @@
          echo $return = $cliente->__soapCall("Bienvenida",["Maria"]).'<br>';
          echo $return= $cliente->__soapCall("sumar",[$num1,$num2]).'<br>';
          echo $return= $cliente->__soapCall("restar",[$num1,$num2]).'<br>';
+         echo $return= $cliente->__soapCall("multiplicar",[$num1,$num2]).'<br>';
     }
     catch(SOAPFault $e){
         echo 'error';
